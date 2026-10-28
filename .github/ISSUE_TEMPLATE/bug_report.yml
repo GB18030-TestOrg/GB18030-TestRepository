@@ -1,7 +1,18 @@
-- type: upload
-  id: screenshots
-  attributes:
-    label: Upload screenshots
-    description: If applicable, add screenshots to help explain your problem.
-  validations:
-    required: false
+name: Bug report
+description: Report a problem
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Describe the problem and steps to reproduce it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag or paste screenshots into this text box.
+    validations:
+      required: false
