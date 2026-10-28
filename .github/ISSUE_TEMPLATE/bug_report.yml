@@ -1,0 +1,7 @@
+- type: upload
+  id: screenshots  # 字段的唯一标识符
+  attributes:
+    label: Upload screenshots
+    description: If applicable, add screenshots to help explain your problem.
+  validations:
+    required: false
