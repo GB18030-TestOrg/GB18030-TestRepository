@@ -32,6 +32,9 @@ def main() -> int:
     print(f"Valid GB18030 byte sequence: {len(data)} bytes, {len(text)} characters")
     return 0
 
+def normalize_ruleset_name(name: str) -> str:
+    return name.strip()
 
 if __name__ == "__main__":
     sys.exit(main())
+
