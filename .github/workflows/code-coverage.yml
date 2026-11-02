@@ -33,7 +33,7 @@ jobs:
       - name: Generate coverage XML
         run: >
           python -m pytest test_coverage_sample.py
-          --cov=质量检查𬴂𫘦G龫龭C姜将浆江疆蒋亍丌D2囕囖囘並丩丮丯丱D3琀琁琂琄琇琈琋琌D4」『』【±÷D1╬╲╳D5U1U2U3䀆䀇䀈䀌䶫䶬A+,-5S
+          --cov=𫓧龦唉丂荳
           --cov-report=term
           --cov-report=xml:coverage.xml
 
