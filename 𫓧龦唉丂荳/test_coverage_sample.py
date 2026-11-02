@@ -1,4 +1,4 @@
-from 质量检查龘𠀀.计算 import describe_number
+from 𫓧龦唉丂荳.计算 import describe_number
 
 
 def test_positive():
