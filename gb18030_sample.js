@@ -12,7 +12,8 @@ function inspectValue(value) {
 
 const result = inspectValue(Number("not-a-number"));
 
-// 用 Unicode 转义作为独立基准，检查运行时字符串是否完整。
+// 用 Unicode 转义作为独立基准，检查运行时字符串是否完整。添加comment  
+// GB18030 字符显示验证：𬉼𫚭G龦鿃C啊阿鼾齄D2丂丄狚狛D3狜狝﨨﨩D4①ⅫㄨㄩD1ˊˋ˙–⿻〇D5U1U2U3㐀㐁䶴䶵A!~S-A1
 const expected =
   "\u8D28\u91CF\u68C0\u67E5\u002D\u{2C27C}\u{2B6AD}\u0047\u9FA6\u9FC3\u0043\u554A\u963F\u9F3E\u9F44\u0044" +
   "\u0032\u4E02\u4E04\u72DA\u72DB\u0044\u0033\u72DC\u72DD\uFA28\uFA29\u0044\u0034\u2460\u216B\u3128" +
